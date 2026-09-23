@@ -1,70 +1,40 @@
 <mxfile host="Electron">
-  <diagram name="Page-1" id="FfEaP-O5FSVOq42PSCDg">
+  <diagram name="Page-1" id="Kx2DufeQr4cVuOr6zybU">
     <mxGraphModel dx="1201" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iOsgJBPGrT75MZCURjRj-1" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Khách hàng" vertex="1">
-          <mxGeometry height="500" width="330" x="50" y="260" as="geometry" />
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="HotelSystem" vertex="1">
+          <mxGeometry height="410" width="275" x="305" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-3" parent="iOsgJBPGrT75MZCURjRj-1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="150" y="40" as="geometry" />
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Khách hàng" vertex="1">
+          <mxGeometry height="60" width="30" x="180" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-4" edge="1" parent="iOsgJBPGrT75MZCURjRj-1" source="iOsgJBPGrT75MZCURjRj-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="100" as="targetPoint" />
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Tra cứu phòng trống" vertex="1">
+          <mxGeometry height="80" width="120" x="382.5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Đặt phòng" vertex="1">
+          <mxGeometry height="80" width="120" x="382.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Hủy phòng" vertex="1">
+          <mxGeometry height="80" width="120" x="382.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-8" edge="1" parent="1" source="fnTeV5KM3Is5WEf32TMk-2" style="endArrow=none;html=1;rounded=0;entryX=0.021;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" target="fnTeV5KM3Is5WEf32TMk-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-5" parent="iOsgJBPGrT75MZCURjRj-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Khách hàng đặt phòng trên hệ thống" vertex="1">
-          <mxGeometry height="40" width="120" x="105" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-2" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Hệ thống Đặt Phòng" vertex="1">
-          <mxGeometry height="500" width="370" x="380" y="260" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-7" parent="iOsgJBPGrT75MZCURjRj-2" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Hệ thống kiểm tra trùng ngày" vertex="1">
-          <mxGeometry height="100" width="120" x="120" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-9" edge="1" parent="iOsgJBPGrT75MZCURjRj-2" source="iOsgJBPGrT75MZCURjRj-7" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="không trùng">
-          <mxGeometry relative="1" x="-1" as="geometry">
-            <mxPoint x="180" y="220" as="targetPoint" />
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-9" edge="1" parent="1" source="fnTeV5KM3Is5WEf32TMk-2" style="endArrow=none;html=1;rounded=0;entryX=0.004;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" target="fnTeV5KM3Is5WEf32TMk-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="266" as="sourcePoint" />
+            <mxPoint x="395" y="215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-11" parent="iOsgJBPGrT75MZCURjRj-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Hệ thống xác nhận đặt phòng" vertex="1">
-          <mxGeometry height="40" width="120" x="120" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-18" parent="iOsgJBPGrT75MZCURjRj-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="thông báo trùng ngày&amp;nbsp;" vertex="1">
-          <mxGeometry height="40" width="120" x="240" y="380" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-10" edge="1" parent="1" source="iOsgJBPGrT75MZCURjRj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iOsgJBPGrT75MZCURjRj-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-15" edge="1" parent="1" source="iOsgJBPGrT75MZCURjRj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iOsgJBPGrT75MZCURjRj-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="hiện thông tin thành công" vertex="1">
-          <mxGeometry height="40" width="120" x="500" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-12" edge="1" parent="1" source="iOsgJBPGrT75MZCURjRj-11" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="iOsgJBPGrT75MZCURjRj-13" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-8" edge="1" parent="1" source="iOsgJBPGrT75MZCURjRj-7" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="trùng ngày">
-          <mxGeometry relative="1" x="-1" as="geometry">
-            <mxPoint x="680" y="645" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-16" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="225" y="565" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-21" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="225" y="645" as="geometry" />
-        </mxCell>
-        <mxCell id="iOsgJBPGrT75MZCURjRj-20" edge="1" parent="1" source="iOsgJBPGrT75MZCURjRj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iOsgJBPGrT75MZCURjRj-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="660" as="targetPoint" />
+        <mxCell id="fnTeV5KM3Is5WEf32TMk-10" edge="1" parent="1" source="fnTeV5KM3Is5WEf32TMk-2" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fnTeV5KM3Is5WEf32TMk-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="276" as="sourcePoint" />
+            <mxPoint x="405" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
